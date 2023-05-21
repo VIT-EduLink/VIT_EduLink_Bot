@@ -1,7 +1,7 @@
 import discord
 from discord.ui import Button, View
 from discord import app_commands
-TOKEN = "xxxxxxxxxxxxxx"
+TOKEN = "xxxxxxxxxxxxxxxxxxxxxx"
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
@@ -31,5 +31,11 @@ async def first_command(interaction,):
     view.add_item(ENPH)
     view.add_item(CALC)
     await interaction.response.send_message('Available subjects are :', view=view)
+    async def button_callback(interaction):
+        viewBEEE = View()
+        viewBEEE.add_item(BEEE_link1)
+        await interaction.response.send_message('Available PDFs are :', view=viewBEEE)
+
+    BEEE.callback = button_callback
 
 client.run(TOKEN)
