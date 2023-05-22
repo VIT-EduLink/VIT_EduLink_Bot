@@ -6,8 +6,10 @@ So we're planning to work on a discord bot and website that can fetch previous y
 
 So the plan is :
 
-- A discord bot service that provides question papers and resources to engineering students.
+- Building an API from scratch that can store categorised links and PDFs.
+- A discord bot service that provides question papers and resources to engineering students, which is sourced from the aforementioned API.
 - A website that can provide the same, fetched from the same API which also holds a link to invite the bot.
+- Branding the whole project along with optimisation of the website UI/UX
 
 
 The data will primarily be sourced from VIT internal exams but other students and teachers can use them as reference materials as well.
