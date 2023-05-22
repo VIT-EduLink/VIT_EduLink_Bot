@@ -13,3 +13,5 @@ So the plan is :
 
 
 The data will primarily be sourced from VIT internal exams but other students and teachers can use them as reference materials as well.
+
+If you're a VIT student willing to contribute please shoot me a DM at Outlaw0125#3298 on discord.
