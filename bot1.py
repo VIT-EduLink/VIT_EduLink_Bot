@@ -1,3 +1,4 @@
+#this one is outdated af but i kept it here for reference, please ignore this
 import discord
 
 TOKEN = 'xxxxxxxxxxxxxx'
