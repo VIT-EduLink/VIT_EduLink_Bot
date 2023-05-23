@@ -1,0 +1,8 @@
+#Your token goes here:
+token = ""
+
+#Your cogs list goes here
+cogs = ['cogs.slashcmd']
+
+#Bot admins list goes here 
+admins = []
