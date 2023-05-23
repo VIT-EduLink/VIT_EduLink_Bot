@@ -1,7 +1,8 @@
 import discord
 from discord.ui import Button, View
 from discord import app_commands
-TOKEN = "xxxxxxxxxxxxxxxxxxxxxx"
+import config 
+
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
@@ -38,4 +39,4 @@ async def first_command(interaction,):
 
     BEEE.callback = button_callback
 
-client.run(TOKEN)
+client.run(config.token)
