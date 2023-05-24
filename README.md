@@ -1,6 +1,6 @@
 
 # VIT_EduLink
-I'll just explain the project briefly
+So to explain the project briefly
 
 So we're planning to work on a discord bot and website that can fetch previous year question papers of VIT internal exams as a student resource. No one has ever made a public repository of such other than shady telegram channels so we'll get some real gratitude points + a solid portfolio project apart from the obvious learning experience (and QPs of course)
 
