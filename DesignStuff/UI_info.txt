@@ -1,0 +1,7 @@
+The website UI uses a design style known as Neubrutalism (using counter-design as well as minimalism)
+- case study of the design style : https://webdesign.tutsplus.com/articles/what-is-the-neubrutalism-web-design-trend--cms-41576
+- examples of the design style : https://dribbble.com/search/neubrutalism
+
+
+Current UI progress :
+https://www.figma.com/proto/2rlRXt2MeRBhOWDaEBNmrA/Untitled?type=design&node-id=2-3&scaling=scale-down&page-id=0%3A1
