@@ -1,1 +1,13 @@
+Proto Guidelines :
 
+>> CSE student target audience
+>> Intentional low contrast (Neubrutalism ref)
+>> Monospace Typography (resemble syntax)
+>> Minimal text hierarchy
+>> Minimal paragraph, short phrases of text
+>> Minimal imagery outside of question bank
+>> Use of accent color sparingly
+>> Occasional text highlights to resemble syntax
+>> Use of stroked boxes promoted
+>> Avoid rounded corners 
+>> If text animations, use text type-in 
