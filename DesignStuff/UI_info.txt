@@ -1,35 +1,50 @@
 UI Design Brief: Neubrutalism-inspired Brand
 
 Objective:
-The objective of this UI design project is to create a user interface that aligns with the neubrutalism-inspired brand identity guidelines. The design should cater to the target audience of CSE students, providing them with an intuitive and visually appealing experience for accessing question papers and educational resources. The UI should reflect the minimalistic and low contrast aesthetic while incorporating monospace typography, stroked boxes, and occasional text highlights resembling syntax.
+The objective of this UI design project is to create a user interface that aligns with the neubrutalism-inspired brand identity guidelines. 
+The design should cater to the target audience of CSE students, providing them with an intuitive and visually appealing experience for accessing
+question papers and educational resources. The UI should reflect the minimalistic and low contrast aesthetic while incorporating monospace 
+typography, stroked boxes, and occasional text highlights resembling syntax.
 
 Design Principles:
 
-Minimalistic Interface: The UI design should follow a minimalistic approach, with a focus on simplicity and clarity. Avoid excessive visual elements and prioritize essential information and functionality.
+Minimalistic Interface: The UI design should follow a minimalistic approach, with a focus on simplicity and clarity. 
+Avoid excessive visual elements and prioritize essential information and functionality.
 
-Low Contrast Elements: Embrace low contrast throughout the design to create a distinct and visually appealing aesthetic. Use subtle variations in color and tone to provide a gentle differentiation between elements.
+Low Contrast Elements: Embrace low contrast throughout the design to create a distinct and visually appealing aesthetic. 
+Use subtle variations in color and tone to provide a gentle differentiation between elements.
 
-Monospace Typography: Utilize monospace typography to resemble syntax commonly seen in programming languages. This choice not only enhances the visual connection with the target audience but also adds a technical touch to the UI.
+Monospace Typography: Utilize monospace typography to resemble syntax commonly seen in programming languages. 
+This choice not only enhances the visual connection with the target audience but also adds a technical touch to the UI.
 
-Text Hierarchy: Maintain a minimal text hierarchy to convey information efficiently. Utilize short phrases and concise paragraphs to provide quick access to relevant details, ensuring clarity and ease of reading.
+Text Hierarchy: Maintain a minimal text hierarchy to convey information efficiently. Utilize short phrases and 
+concise paragraphs to provide quick access to relevant details, ensuring clarity and ease of reading.
 
-Stroked Boxes: Promote the use of stroked boxes as a design element to add structure and organization to the UI. These boxes should be implemented sparingly and strategically to create visual interest and define sections.
+Stroked Boxes: Promote the use of stroked boxes as a design element to add structure and organization to the UI. 
+These boxes should be implemented sparingly and strategically to create visual interest and define sections.
 
-Occasional Text Highlights: Incorporate text highlights resembling syntax highlighting, emphasizing important elements or interactive components. This technique reinforces the connection to the coding world and adds visual interest to the UI.
+Occasional Text Highlights: Incorporate text highlights resembling syntax highlighting, emphasizing important 
+elements or interactive components. This technique reinforces the connection to the coding world and adds visual interest to the UI.
 
-Limited Imagery: Adopt a minimalist approach to imagery, with a primary focus on the question bank resources. Use imagery sparingly and only when necessary to complement the content, maintaining a clean and uncluttered interface.
+Limited Imagery: Adopt a minimalist approach to imagery, with a primary focus on the question bank resources.
+Use imagery sparingly and only when necessary to complement the content, maintaining a clean and uncluttered interface.
 
-Accent Colors: Use accent colors sparingly to draw attention to key elements and interactive components. These colors should be used strategically to create visual interest and guide users' attention without overwhelming the overall design.
+Accent Colors: Use accent colors sparingly to draw attention to key elements and interactive components. 
+These colors should be used strategically to create visual interest and guide users' attention without overwhelming the overall design.
 
 Deliverables:
 
-Visual UI Design: Provide a set of visual design mockups showcasing the neubrutalism-inspired UI design principles. Include various screens and components, demonstrating the application of the brand identity guidelines.
+Visual UI Design: Provide a set of visual design mockups showcasing the neubrutalism-inspired UI design principles. 
+Include various screens and components, demonstrating the application of the brand identity guidelines.
 
-Interactive Prototypes: Develop interactive prototypes to showcase the user flow and functionality of the UI design. These prototypes should allow for user testing and feedback to refine the design further.
+Interactive Prototypes: Develop interactive prototypes to showcase the user flow and functionality of the UI design. 
+These prototypes should allow for user testing and feedback to refine the design further.
 
-Style Guide: Create a comprehensive style guide that documents the UI design principles, including color palette, typography, iconography, and component specifications. This guide will ensure consistency across the application and facilitate future design iterations.
+Style Guide: Create a comprehensive style guide that documents the UI design principles, including color palette, 
+typography, iconography, and component specifications. This guide will ensure consistency across the application and facilitate future design iterations.
 
-The UI design should not only reflect the neubrutalism-inspired brand but also provide an intuitive and user-friendly experience for CSE students. The design should prioritize functionality, readability, and ease of use, enabling seamless access to question papers and educational resources.
+The UI design should not only reflect the neubrutalism-inspired brand but also provide an intuitive and user-friendly experience
+for CSE students. The design should prioritize functionality, readability, and ease of use, enabling seamless access to question papers and educational resources.
 
 The website UI uses a design style known as Neubrutalism (using counter-design as well as minimalism)
 - case study of the design style : https://webdesign.tutsplus.com/articles/what-is-the-neubrutalism-web-design-trend--cms-41576
