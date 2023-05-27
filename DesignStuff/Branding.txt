@@ -1,7 +1,25 @@
-Our brand identity is designed with the CSE student as our primary target audience. We aim to create a unique experience that resonates with their technical background and fosters a sense of familiarity. Inspired by the concept of Neubrutalism, we intentionally embrace low contrast elements throughout our design. This creates a distinct aesthetic that aligns with the modern and minimalist approach.
 
-To reflect the coding and programming aspect, we utilize a monospace typography that resembles syntax commonly seen in programming languages. This choice not only enhances the visual appeal but also reinforces the connection with our audience's field of study. We maintain a minimal text hierarchy, ensuring that information is conveyed succinctly and efficiently. Our focus is on short phrases and concise paragraphs to provide quick access to relevant details.
+Our brand identity is designed with the CSE student as our primary target audience. We aim to create a unique
+experience that resonates with their technical background and fosters a sense of familiarity.
 
-In terms of imagery, we adopt a minimalist approach, with a primary emphasis on the question bank resources. We use accent colors sparingly to draw attention to key elements, creating visual interest without overwhelming the user. Occasionally, we incorporate text highlights to resemble syntax highlighting, further reinforcing our connection to the coding world. Stroked boxes are promoted as a design element, offering a structured and organized visual experience, while avoiding rounded corners to maintain a sleek and modern aesthetic. If text animations are used, we employ text type-in effects to add a touch of interactivity and engagement.
+Inspired by the concept of Neubrutalism, we intentionally embrace low contrast elements throughout our design. 
+This creates a distinct aesthetic that aligns with the modern and minimalist approach.
 
-Overall, our brand identity guidelines aim to create a cohesive and visually appealing experience for CSE students and other users. By embracing minimalism, monospace typography, and intentional design choices, we provide an intuitive and familiar environment for accessing valuable question papers and educational resources.
+To reflect the coding and programming aspect, we utilize a monospace typography that resembles syntax commonly seen 
+in programming languages. This choice not only enhances the visual appeal but also reinforces the connection with our audience's field of study.
+
+We maintain a minimal text hierarchy, ensuring that information is conveyed succinctly and efficiently. 
+Our focus is on short phrases and concise paragraphs to provide quick access to relevant details.
+
+In terms of imagery, we adopt a minimalist approach, with a primary emphasis on the question bank resources. 
+We use accent colors sparingly to draw attention to key elements, creating visual interest without overwhelming the user.
+
+Occasionally, we incorporate text highlights to resemble syntax highlighting, further reinforcing our connection to 
+the coding world. Stroked boxes are promoted as a design element, offering a structured and organized visual experience, 
+while avoiding rounded corners to maintain a sleek and modern aesthetic.
+
+If text animations are used, we employ text type-in effects to add a touch of interactivity and engagement.
+
+Overall, our brand identity guidelines aim to create a cohesive and visually appealing experience for CSE students and other users. 
+By embracing minimalism, monospace typography, and intentional design choices, we provide an intuitive and
+familiar environment for accessing valuable question papers and educational resources.
