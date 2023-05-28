@@ -1,0 +1,62 @@
+import discord
+from discord import app_commands
+from discord.ext import commands
+from discord.ui import Button, View
+
+import asyncpg
+
+class SlashCmd(commands.Cog):
+    """ All slash commands should be defined here for the sake of simplicity """
+    def __init__(self, bot) -> None:
+        self.bot = bot
+        self.database = None
+        self.bot.loop.create_task(self.on_connect())
+
+    async def on_connect(self): 
+      # pool connection here
+      pass
+
+    @app_commands.command(name="subjects", description="displays available subjects")
+    async def subject_commands(self, interaction: discord.Interaction) -> None:
+        """ Displays available subjects """
+        if self.database is None:
+            await interaction.response.send_message("Database connection not established.")
+            return
+
+        await interaction.response.defer()
+        query = '''
+        SELECT table_name
+        FROM information_schema.tables
+        WHERE table_schema = 'public';
+        '''
+        result = await self.database.fetch(query)
+        table_names = [row['table_name'] for row in result]
+
+        view = View()
+        for table_name in table_names:
+            if table_name == "_prisma_migrations":
+                continue
+
+            button = Button(style=discord.ButtonStyle.blurple, label=table_name)
+            button.callback = lambda i, b=button: self.button_callback(i, b)  # Pass button as an argument
+            view.add_item(button)
+
+        await interaction.followup.send("Available subjects are: ", view=view)
+
+    async def button_callback(self, interaction: discord.Interaction, button: Button) -> None:
+        table_name = button.label
+        query = f"SELECT label, link FROM \"public\".\"{table_name}\";"
+        result = await self.database.fetch(query)
+
+        view = View()
+        for record in result:
+            label = record['label']
+            link = record['link']
+            button = Button(style=discord.ButtonStyle.link, label=label, url=link)
+            view.add_item(button)
+
+        await interaction.response.send_message("Links:", view=view)
+
+
+async def setup(bot) -> None:
+    await bot.add_cog(SlashCmd(bot))
