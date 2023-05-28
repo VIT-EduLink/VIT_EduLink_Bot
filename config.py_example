@@ -6,3 +6,6 @@ cogs = ['cogs.slashcmd']
 
 #Bot admins list goes here 
 admins = []
+
+#API url goes here
+API = ""
