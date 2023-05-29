@@ -16,8 +16,9 @@ class SlashCmd(commands.Cog):
     async def subject_commands(self, interaction: discord.Interaction) -> None:
         """ Displays available subjects """
         await interaction.response.defer()
-        response = requests.get(config.API)
-        if response.status_code == 200:
+        try:
+            response = requests.get(config.API)
+            response.raise_for_status() 
             subjects_data = response.json()
 
             category_labels = {
@@ -33,8 +34,10 @@ class SlashCmd(commands.Cog):
                 view.add_item(button)
 
             await interaction.followup.send("Available subjects are:", view=view)
-        else:
-            await interaction.followup.send("Failed to retrieve subjects data from the API.")
+        except (requests.RequestException, ValueError):
+            await interaction.followup.send("Oops! Sorry, I can't seem to connect to the API at the moment.")
+        except Exception as e:
+            await interaction.followup.send(f"An error occurred: {str(e)}")
 
     async def button_callback(self, interaction: discord.Interaction, button: Button, subjects) -> None:
         view = View()
