@@ -22,8 +22,12 @@ class SlashCmd(commands.Cog):
             subjects_data = response.json()
 
             category_labels = {
-                "cseData": "CSE",
-                "chemData": "Chemistry",
+                "calculusData": "Calculus [BMAT101L]",
+                "chemData": "Engineering Chemistry [BCHY101L]",
+                "eeeData": "Foundations of Electrical and Electronics Engineering [EEE1019]",
+                "beeeData": "Basic Electrical and Electronics Engineering [BEEE102L]",
+                "bphyData": "Engineering Physics [BPHY101L]",
+                "bengData": "Technical English Communication [BENG101L]",
             }
 
             view = View()
@@ -48,6 +52,7 @@ class SlashCmd(commands.Cog):
             view.add_item(sub_button)
 
         await interaction.response.send_message(f"Subjects for {button.label}:", view=view)
+
 
 async def setup(bot) -> None:
     await bot.add_cog(SlashCmd(bot))
